@@ -11,6 +11,7 @@ import {
   BadgeQuestionMark,
   BookOpen,
   Users,
+  Radio,
 } from "lucide-react";
 
 export const headerData = [
@@ -23,6 +24,7 @@ export const headerData = [
       { title: "What We Do", href: "/whatwedo", icon: BookOpen },
       { title: "Who We Are", href: "/whoweare", icon: Users },
       { title: "Advertise", href: "/advertise", icon: ClipboardList },
+      { title: "FCC Public File", href: "https://publicfiles.fcc.gov/fm-profile/WBED", icon: Radio },
     ],
   },
 
